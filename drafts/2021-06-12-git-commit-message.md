@@ -20,7 +20,7 @@ git commit -m "Commit Message"
 
 ```sh
 # 启动查错时
-git bisect start [FROM] [TO] 
+git bisect start [FROM] [TO]
 # 显示日志时 仅显示本次发布新增加的功能
 git log [RELEASE] HEAD --grep feature
 ```
